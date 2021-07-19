@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Copyright (c) 2020 Alexandr Grigoryev. All rights reserved. -->
+
+<html>
+
+<head>
+    <title>Merger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script data-ad-client="ca-pub-1546653088067224" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+    <h1>Upload ifc files to merge</h1>
+    <div class="about">
+        <h5>Here you can upload several ifc files, merge them into one file and download it.</h5>
+    </div>
+    <img class="arrow" src="./image/arrow.png">
+    <div class="merge">
+        <div class="input-group col-md-5">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="file" aria-describedby="inputGroupFileAddon04" multiple>
+                <label class="custom-file-label" for="file">Choose files</label>
+            </div>
+            <div class="input-group-append">
+                <button class="btn btn-warning" type="button" id="btn">Merge</button>
+                <a download="merge.ifc" id="result" href="#" class="btn btn-warning" hidden>Download</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="contacts">
+            <p>Our contacts</p>
+            <div class="block">
+                <img class="contact" src="https://img.icons8.com/plasticine/100/000000/email-sign.png" />
+                <a href="mailto:constructor.merger@gmail.com">constructor.merger@gmail.com</a>
+            </div>
+            <div class="block">
+                <img class="contact" src="https://img.icons8.com/fluent/48/000000/web-design.png" />
+                <a href="https://www.bim-plat.de/" target="_blanck">bim-plat.de</a>
+            </div>
+        </div>
+        <div class="authors">
+            <p>Authors</p>
+            <div class="block">
+                <img class="contact" src="https://img.icons8.com/plasticine/100/000000/email-sign.png" />
+                <a href="mailto:kontakt@bim-Plat.de">Michael Plat</a>
+            </div>
+            <div class="block">
+                <img class="contact" src="https://img.icons8.com/plasticine/100/000000/email-sign.png" />
+                <a href="mailto:argrigoryev@icloud.com">Alexandr Grigoryev</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="merge.js"></script>
+</body>
+
+</html>

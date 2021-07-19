@@ -1,0 +1,101 @@
+/* Copyright (c) 2020 Alexandr Grigoryev. All rights reserved. */
+
+body {
+    background: grey url(./image/bg1.jpg);
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Piedra";
+}
+
+.merge {
+    position: relative;
+    left: 30%;
+    margin-left: 15pt;
+}
+
+.about {
+    position: relative;
+    text-align: center;
+    top: 40pt;
+    font-family: "Piedra";
+}
+
+#result {
+    position: relative;
+    left: 5pt;
+}
+
+.loading {
+    position: relative;
+    left: 35pt;
+}
+
+.arrow {
+    width: 100pt;
+    height: 100pt;
+    position: relative;
+    top: 60pt;
+    left: 20%;
+}
+
+.footer {
+    height: 150pt;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    margin: 10pt;
+}
+
+.contacts {
+    float: left;
+    margin: 7pt;
+    height: 90%;
+    width: 48%;
+    background: url(./image/footer1.jpg);
+    font-family: "DancingScript";
+    font-size: 25pt;
+    text-align: center;
+}
+
+.authors {
+    display: inline-block;
+    margin: 7pt;
+    height: 90%;
+    width: 48%;
+    background: url(./image/footer1.jpg);
+    font-family: "DancingScript";
+    font-size: 25pt;
+    text-align: center;
+}
+
+.block {
+    position: relative;
+    bottom: 10pt;
+}
+
+.block a {
+    color: black;
+}
+
+.contact {
+    width: 25pt;
+    height: 25pt;
+}
+
+@font-face {
+    font-family: "Piedra";
+    src: url("./fonts/Piedra-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "DancingScript";
+    src: url("./fonts/DancingScript-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
